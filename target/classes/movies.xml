@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.springframework.org/schema/beans">
+
+
+<bean  class="com.te.springcore.bean.Moives" id="mov"  >
+
+<property name="id" value="10" />
+
+<property name="mname" value="josh" />
+
+</bean>
+
+<bean  class="com.te.springcore.bean.Moives" id="pop" autowire-candidate="false">
+
+<property name="id" value="20" />
+
+<property name="mname" value="pop" />
+
+</bean>
+
+<bean  class="com.te.springcore.bean.Moives" id="pursuithappiness" autowire-candidate="false">
+
+<property name="id" value="30" />
+
+<property name="mname" value="pursuithappiness" />
+
+</bean>
+</beans>
